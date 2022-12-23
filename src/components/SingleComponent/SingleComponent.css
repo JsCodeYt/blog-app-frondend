@@ -1,0 +1,147 @@
+.single__component {
+  flex: 9;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  align-items: center;
+}
+
+.singe-date__titles {
+  display: flex;
+}
+
+.singe-date__titles span {
+  margin-right: 300px;
+  font-size: 20px;
+}
+
+.single-author {
+  font-family: "Varela", sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.single-author:hover {
+  color: darkgoldenrod;
+}
+
+.single__component img {
+  width: 1000px;
+  height: 450px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.single-title {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.single-title span {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 20px 0px;
+}
+
+.sigle__icons i {
+  margin: 5px 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.single-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.single-desc {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Varela Round", sans-serif;
+  margin-top: 20px;
+}
+
+.show-update__form {
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.show-update__form input {
+  height: 30px;
+  width: 300px;
+  border-radius: 10px;
+  outline: none;
+  padding: 0px 10px;
+  margin: 30px 0px;
+  outline: none;
+  font-family: "Josefin Sans", sans-serif;
+  border: none;
+  font-size: 25px;
+}
+
+.form__desc {
+  height: 60px;
+  width: 300px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: azure;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 900px) {
+  .single__component {
+    display: block;
+  }
+  .single__component img {
+    width: 100%;
+  }
+  .single-title {
+    width: 300px;
+  }
+  .singe-date__titles {
+    display: inline;
+    width: 300px;
+  }
+  .singe-date__titles span {
+    margin: 10px 10px;
+  }
+  .show-update__form {
+    display: block;
+    width: 300px;
+  }
+  button {
+    height: 50px;
+    width: 200px;
+  }
+}
+/* 
+@media (max-width:700px) {
+  .single__component {
+    display: block;
+  }
+  .single__component img {
+    width: 380px;
+  }
+  .singe-date__titles {
+    display: inline;
+    width: 300px;
+  }
+  .singe-date__titles span {
+    margin: 10px 10px;
+  }
+} */
